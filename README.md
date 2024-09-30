@@ -8,6 +8,15 @@ This project aims to solve the Single-Source Shortest Path (SSSP) problem in 2D 
     - Contains configuration files for running the program.
     - Includes an example configuration file for reference. Details on configuration files can be found [here](#configuration-file-structure).
 
+- **Experiment_Results**:
+    - Contains the results obtained from the experiments.
+
+- **Experiment_Results/General_Instances**:
+    - Contains the results obtained from the experiments conducted on general instances.
+
+- **Experiment_Results/Special_Instances**:
+    - Contains the results obtained from the experiments conducted on special instances.
+
 - **General_Instances**:
     - Contains example special instances with 100 instances for each dimension. For additional instances used in experiments, please contact us at SipengSunny@outlook.com.
     - Details on instance files can be found [here](#instance-file-structure).
@@ -90,12 +99,6 @@ This will create two executable files: `GENERATE` and `RRDP`.
         -InsDir: Base directory for instance files (default: ./General(or Special)_Instances/[dim])
         -h: Display this help and exit
     ```
-
-4. **run.sh**:
-   - To execute the script and start programs related to the specified configuration, run:
-     ```bash
-     bash run.sh
-     ```
 
 ## Instance File Structure
 
