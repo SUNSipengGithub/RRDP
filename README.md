@@ -146,3 +146,5 @@ python create_configPrun_files.py -dim 100 -mode 1
 ```bash
 bash run.sh
 ```
+
+Then the results would be collected in these files - `dijkstra_time.txt`,`rrdp_time.txt` and `ratio_time.txt`.
