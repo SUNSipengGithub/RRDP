@@ -18,11 +18,11 @@ This project aims to solve the Single-Source Shortest Path (SSSP) problem in 2D 
     - Contains the results obtained from the experiments conducted on special instances.
 
 - **General_Instances**:
-    - Contains example special instances with 100 instances for each dimension. For additional instances used in experiments, please contact us at SipengSunny@outlook.com.
+    - Contains example special instances with 100 instances for each dimension. For additional instances used in experiments, please contact us at fuzhanghua@cuhk.edu.cn.
     - Details on instance files can be found [here](#instance-file-structure).
 
 - **Special_Instances**:
-    - Contains example special instances where the horizontal edges have the same weight, with 100 instances for each dimension. For additional instances used in experiments, please contact us at SipengSunny@outlook.com.
+    - Contains example special instances where the horizontal edges have the same weight, with 100 instances for each dimension. For additional instances used in experiments, please contact us at fuzhanghua@cuhk.edu.cn.
     - Details on instance files can be found [here](#instance-file-structure).
 
 - **Src**:
@@ -106,7 +106,7 @@ Each instance file includes:
 - The first line specifies the dimension of the graph (e.g., `100` for a 100x100 dimension).
 - Each subsequent line represents one vertex with its neighbors and corresponding weights:
     ```
-    <vtx> <des_vtx> <weight> <des_vtx> <weight> /cdots
+    <vtx> <des_vtx> <weight> <des_vtx> <weight> ...
     ```
     - Where:
       - `<vtx>`: The vertex.
