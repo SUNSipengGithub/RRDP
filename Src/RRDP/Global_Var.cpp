@@ -23,7 +23,7 @@ int g_repeat_time = 0;      // Number of repetitions for each algorithm
  * @param config_path The path to the configuration file.
  */
 void get_parameter(string config_path) {
-    ifstream ifile(config_path.c_str()); // Open the configuration file
+    ifstream ifile(config_path); // Open the configuration file
     if (ifile.fail()) { // Check if the file was opened successfully
         cout << __FUNCTION__ << std::endl
              << "Fail to open the file "
